@@ -1,0 +1,28 @@
+  body {
+    background-color: rgb(239, 235, 211);
+    color: #2D6187
+  }
+
+  hr {
+    border-color: #A8DDA8;
+    border-style: dotted none none;
+    border-width: 10px;
+    height: 20px;
+    width: 30%;
+  }
+
+  h1 {
+    color: #28ABB9
+  }
+
+  h3 {
+    color: #28ABB9
+  }
+
+  h2 {
+    color: #28ABB9
+  }
+
+#headshot {
+  border-radius: 100%;
+}

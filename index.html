@@ -4,19 +4,19 @@
     <meta charset="utf-8">
     <meta description="Experience, publications, and professional interests for Hayley Brittingham" /> <!--will appear in google description-->
     <title>Hayley Brittingham's Personal Website</title>
+    <link rel="stylesheet" href="CSS/styles.css">
   </head>
   <body>
     <table cellspacing=50>
       <tr>
-        <td><img src="circle-cropped.png" alt ="Hayley's Profile Picture"/></td>
+        <td><img id="headshot" src="headshot.jpg" alt ="Hayley's Profile Picture"/></td>
         <td><h1> Hayley Brittingham </h1>
-          <p> <em> Environmental Statistician at<a href="https://www.neptuneinc.org" target="_blank"> Neptune and Company, Inc. </a> </em> </p> Ms. Brittingham is a statistical consultant with interests in environmental statistics, biology, and probability theory. She has experience in ecological research, statistical analysis, and programming. She served as the primary contributor to a study that helped to clarify the effect of a plant’s chromosome counts on the extent of the area the species occupies. She routinely performs statistical analysis of both large and small environmental datasets to support site decision-making. The scope of the analysis is varied from simply comparing background with site concentrations to supporting large probabilistic models with a wide spatial and temporal scale. <br /> <br /> Ms. Brittingham has experience in a variety of multivariate statistical methods for both continuous and discrete data, including dimension reduction, shrinkage, classification, and a variety of GLMs. She has served as a statistical consultant for Pennsylvania State University, educating scientists in genetics and neuroscience on ethical ways to analyze their data. Since September 2017, she has aided in developing probabilistic models for performance and risk assessments of radioactive waste disposal sites for Neptune and Company. She has implemented a variety of statistical approaches, evaluated methods to appropriately expand the variation in the underlying distributions, and led others in developing defensible distributions. She has assessed various methods used to develop the distributions, carefully accounting for differences in spatial and temporal scale as they relate to the model.</p></td>
+          <p> <em> Environmental Statistician at<a href="https://www.neptuneinc.org" target="_blank"> Neptune and Company, Inc. </a> </em> </p> Ms. Brittingham is a statistical consultant with experience in ecological research, statistical theory and analysis, and programming. She routinely performs statistical analysis of both large and small environmental datasets to support site decision-making. The scope of the analysis is varied from simply comparing background with site concentrations to supporting large probabilistic models with a wide spatial and temporal scale. </td>
       </tr>
     </table>
     <!--<center><img src="circle-cropped.png" alt ="Hayley's Profile Picture"/></center>-->
     <!-- use <i> for just italics, e.g. a priori</i>. use <em> for italics that convey emphasis</em> -->
     <!-- analogous, <strong> conveys emphasis </strong>, whereas <bold> does not </bold> -->
-
       <hr />
       <h3>Education</h3>
       <ul>
@@ -41,7 +41,7 @@
       </table>
       <hr />
       <h3> Statistics </h3>
-      <p>Hayley routinely performs statistical analysis of environmental data to support site decision-making, including developing probability distributions for inputs used in performance and risk assessment models based on information in the literature and data collected at sites. <a href="statistics.html">View my projects</a></p>
+      <p>Hayley routinely performs statistical analysis of environmental data to support site decision-making, including developing probability distributions for inputs used in performance and risk assessment models based on information in the literature and data collected at environmental sites. Ms. Brittingham has experience in a variety of multivariate statistical methods for both continuous and discrete data, including dimension reduction, shrinkage, classification, and a variety of GLMs. She has served as a statistical consultant for Pennsylvania State University, educating scientists in genetics and neuroscience on ethical ways to analyze their data. <br> <br> Since September 2017, she has designed and reviewed sampling plans using a variety of sampling techniques, and analyzed environmental data for use in transparent and defensible decision making, reviewed statistical analysis for validity and defensibility as a statistician at Neptune and Company. In addition, she has provided statistical support for probabilistic performance assessments of radioactive waste disposal sites by developing distributions that consider the spatial and temporal complexities of the model and by performing sensitivity analyses to inform model implementation. <a href="statistics.html">View my projects</a></p>
       <hr />
       <h3>Programming Skills</h3>
       <table cellspacing=10>
@@ -55,13 +55,13 @@
           <td>Shiny Application Development</td> <td>⭐⭐⭐⭐</td> <td></td> <td>Javascript</td> <td>⭐⭐⭐</td>
         </tr>
         <tr>
-          <td>Data Manipulation (dplyr, tidyr)</td> <td>⭐⭐⭐⭐⭐ </td> <td></td> <td>CSS</td> <td>⭐</td>
+          <td>Data Manipulation (e.g., dplyr, tidyr)</td> <td>⭐⭐⭐⭐⭐ </td> <td></td> <td>CSS</td> <td>⭐</td>
         </tr>
         <tr>
-          <td>Data Visualization (kable, ggplot2)</td> <td>⭐⭐⭐⭐⭐</td> <td></td> <td>Node</td> <td>⭐</td>
+          <td>Data Visualization (e.g., kable, ggplot2)</td> <td>⭐⭐⭐⭐⭐</td> <td></td> <td>Node</td> <td>⭐</td>
         </tr>
         <tr>
-          <td>Spatial Data (sp, sf, rgdal)</td> <td>⭐⭐⭐</td> <td></td> <td>React</td> <td>⭐</td>
+          <td>Spatial Data (e.g., sp, sf, rgdal)</td> <td>⭐⭐⭐</td> <td></td> <td>React</td> <td>⭐</td>
         </tr>
         <tr>
           <td></td> <td></td> <td></td> <td>MongoDB</td> <td>⭐</td>
@@ -76,8 +76,9 @@
       <h3>Ecology and Evolution</h3>
       <p>
         <ul> <!--use ol for numbered list-->
-        <li><em><strong>Social Insect Behavior Lab, University of Pittsburgh.</strong></em> Hayley regularly assessed personality traits of social spiders (<i>Agelenopsis</i> and <i>Stegodyphus</i>), under the direction of Dr. Jonathan Pruitt. She also helped develop a novel assay for aggression on <i>Stegodyphus</i>, which were oversensitive to the usual procedure involving a metal rod. She performed various experiments on social ants and wasps regularly, and cared for all social spiders, ants, wasps, crickets and tarantulas by feeding and cleaning enclosures.</li>
-        <li><em><strong>Swamp Sparrow Behavior, Smithsonian National Zoo. </strong></em>As an intern at the Smithsonian National Zoo, Hayley collected observational data on the rarely studied swamp sparrow, creating the first-ever ethogram (list of behaviors) and accompanying activity budget. She used non-parametric statistical methods to quantify relative dominance across the sample and found that birds with larger mass were more likely to be dominant after controlling for wing length, and further, that male sparrows with longer wings were generally dominant over those with shorter wings.</li>
+        <li><em><strong>Ashman Lab, Univeristy of Pittsburgh</strong></em> Hayley served as the primary contributor to a study that helped to clarify the effect of a plant’s chromosome counts on the extent of the area the species occupies.</li> <br>
+        <li><em><strong>Pruitt Lab, University of Pittsburgh.</strong></em> Hayley regularly assessed personality traits of social spiders (<i>Agelenopsis</i> and <i>Stegodyphus</i>). She also helped develop a novel assay for aggression on <i>Stegodyphus</i>, which were oversensitive to the usual procedure involving a metal rod. She performed various experiments on social ants and wasps regularly, and cared for all social spiders, ants, wasps, crickets and tarantulas by feeding and cleaning enclosures.</li> <br>
+        <li><em><strong>Swamp Sparrow Behavior, Smithsonian National Zoo. </strong></em>As an intern at the Smithsonian National Zoo, Hayley collected observational data on the rarely studied swamp sparrow, creating the first-ever ethogram (i.e., list of behaviors) and accompanying activity budget. She used non-parametric statistical methods to quantify relative dominance across the sample and found that birds with larger mass were more likely to be dominant after controlling for wing length, and further, that male sparrows with longer wings were generally dominant over those with shorter wings.</li> <br>
         </ul>
         </p>
       <hr />
